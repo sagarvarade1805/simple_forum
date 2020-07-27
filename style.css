@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;    
+}
+body{
+    font-family: 'M PLUS Rounded 1c';
+}
+.form{
+    width: 25rem;
+    margin: 5rem auto;
+    border: 3px solid black;
+    border-radius: 2rem;
+    background-color: grey;
+    color: white;
+
+    padding: 1rem;
+}
+h1{
+    text-align: center;
+}
+.input{
+    width: 100%;
+    padding: 0 0;
+}
+input{
+    width: 80%;
+    padding: .4rem 1rem;
+    color: black;
+    outline: none;
+}
+
+
+form{
+    padding-top: 2rem;
+}
+.centre{
+    text-align: center;
+    margin: 1rem auto;
+}
+.btn{
+    padding: .5rem 1rem;
+    background-color: white;
+}
+.bottomline{
+    padding: 1rem;
+}
+.red-text{
+    color: red;
+    font-size: .8rem;
+    margin: .2rem auto;
+}
+.add{
+    margin: 1.5rem;
+}
+.container{
+    padding: 5rem;
+    width: 40%;
+}
+.home{
+    margin: 1rem auto;
+    width: 85%;
+    font-family: 'ABeeZee';
+}
+.black{
+    color: black;
+}
+.nav{
+    height: 5rem;
+    background-color: rgb(1, 247, 255);
+    width: 100%;
+}
+h3{
+    float: left;
+    font-size: 1.5rem;
+    padding: 1rem
+}
+.logout {
+    float: right;
+    color: grey;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+}
+.topics{
+    font-size: 1.2rem;
+    margin: 1.5rem;
+    border: 2px solid black;
+}
+.head{
+    font-size: 1.5rem;
+    padding: .5rem 1.5rem;
+}
+.by{
+    padding: .1rem 1.5rem;
+}
+.brand-text{
+    float: right;
+    margin-top: -1.5rem;
+    padding-right: 2rem;
+    color: grey;
+    text-decoration: none;
+}
+.details{
+    padding: 2rem;
+    
+}
+.registrat{
+    width: 30%;
+    margin: 2rem auto;
+    border: 2px solid black;
+    border-radius: 2rem;
+    box-shadow: 1rem 0 0 white;
+    background-color: grey;
+    color: white;
+    padding: 1rem;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
